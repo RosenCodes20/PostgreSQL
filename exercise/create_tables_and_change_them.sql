@@ -1,0 +1,14 @@
+CREATE TABLE names (
+	first_name VARCHAR(50) NOT NULL PRIMARY KEY,
+	last_name VARCHAR(50) NOT NULL,
+	created TIMESTAMP NOT NULL
+);
+
+CREATE TABLE ids (
+	id SERIAL PRIMARY KEY NOT NULL,
+	school_number INTEGER,
+	class CHAR(5)
+);
+
+ALTER TABLE ids
+ALTER COLUMN class TYPE CHAR(3)

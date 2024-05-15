@@ -1,0 +1,1 @@
+select school_number from ids;

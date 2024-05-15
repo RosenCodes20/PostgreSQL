@@ -1,0 +1,2 @@
+ALTER TABLE ids
+ALTER COLUMN school_number SET DEFAULT 0;

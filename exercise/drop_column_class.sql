@@ -1,0 +1,2 @@
+ALTER TABLE ids
+DROP COLUMN  "class";

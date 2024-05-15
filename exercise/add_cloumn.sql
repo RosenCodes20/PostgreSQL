@@ -1,0 +1,2 @@
+ALTER TABLE ids
+ADD COLUMN type_school VARCHAR(150);
